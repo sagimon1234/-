@@ -1,0 +1,33 @@
+{
+  "name": "ふたりの家計簿",
+  "short_name": "家計簿",
+  "description": "夫婦で共有できる家計簿アプリ",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f4f0",
+  "theme_color": "#2d6a4f",
+  "orientation": "portrait",
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "支出を追加",
+      "short_name": "支出追加",
+      "url": "./index.html?quick=expense",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
